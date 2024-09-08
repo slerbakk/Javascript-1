@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato:400,700"
+      type="text/css"
+    />
+    <script defer src="/js/script.js" type="module"></script>
+    <script
+      src="https://kit.fontawesome.com/bcba9f6450.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <title>Browse - SquareEyes</title>
+  </head>
+  <body>
+    <header class="header wrapper">
+      <a href="index.html"
+        ><img src="img/logo.png" alt="SquareEyes Logo" class="logo"
+      /></a>
+      <form class="search" role="search">
+        <input placeholder="Search" class="searchform" type="text" />
+        <button class="searchbutton">
+          <a href="#">
+            <img src="img/searchglass.png" alt="Search Icon" />
+          </a>
+        </button>
+      </form>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a id="active" href="#">Browse all</a></li>
+          <!--<li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="register.html">Register</a></li>-->
+
+          <li>
+            <a id="cart-icon" href="/checkout/">
+              <i class="fa-solid fa-cart-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="movieBrowse" class="browse">
+      <select id="category">
+        <option value="">Select Genre:</option>
+        <option value="action">Action</option>
+        <option value="horror">Horror</option>
+        <option value="kids">Kids</option>
+        <option value="comedy">Comedy</option>
+        <option value="drama">Drama</option>
+      </select>
+      <div class="movie-grid">Loading movies...</div>
+    </section>
+    <footer class="footer"></footer>
+  </body>
+</html>

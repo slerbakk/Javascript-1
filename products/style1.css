@@ -1,0 +1,62 @@
+* {
+  background-color: #141414;
+  margin: 0 auto;
+}
+
+body {
+  margin-top: 5%;
+}
+.poster img {
+  height: 600px;
+  margin-top: 60px;
+}
+
+.product-container {
+  display: flex;
+  max-width: 900px;
+  height: auto;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 44px;
+  color: #fe3900;
+  text-align: center;
+}
+
+.description {
+  margin-top: 75px;
+  font-size: 24px;
+  text-align: center;
+  color: lightgrey;
+  margin-bottom: 320px;
+}
+
+.info {
+  color: lightgrey;
+  flex-direction: row;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#value {
+  color: #fe3900;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #fe3900;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #fd1f00;
+}
+
+button:active {
+  transform: scale(0.97);
+}
